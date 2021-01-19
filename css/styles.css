@@ -546,6 +546,7 @@ footer {
 .footer-block {
   display: inline-flex;
   align-items: baseline;
+  width: 1170px;
 }
 
 .accession-title {
@@ -604,10 +605,6 @@ footer {
 
 .accession-icon {
   fill: currentColor;
-}
-
-.connect-forus {
-  margin-right: 93px;
 }
 
 /* Portfolio */
@@ -821,6 +818,9 @@ a {
   color: var(--text-color-snow);
 }
 /* FORM */
+.form-conteiner {
+  margin-left: auto;
+}
 
 .form {
   padding: 40px;
@@ -1009,9 +1009,11 @@ a {
   bottom: 0;
   left: 0;
   padding: 15px;
+  margin-right: 12px;
   width: 358px;
   height: 50px;
 
+  color: var(--text-color-snow);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1044,6 +1046,10 @@ a {
   color: var(--primery-text-color);
 }
 
+.send-logo {
+  fill: currentColor;
+}
+
 .text-send {
   margin-right: 10px;
 
@@ -1051,7 +1057,6 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: var(--text-color-snow);
 }
 
 .label-footer {
