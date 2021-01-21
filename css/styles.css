@@ -751,6 +751,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px;
   transform: translate(-50%, -50%);
 
   width: 528px;
@@ -817,14 +818,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-color-snow);
 }
-/* FORM */
-.form-conteiner {
-  margin-left: auto;
-}
-
-.form {
-  padding: 40px;
-}
+/* Form backdrop*/
 
 .form-title {
   margin-top: 0;
@@ -852,13 +846,13 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-  outline: rgba(255, 255, 255, 0.1);
 
   transition: border 250ms var(--trans-duration);
   cursor: pointer;
 }
 
 .input-info:focus {
+  outline: none;
   border: 2px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
@@ -895,13 +889,13 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-  outline: rgba(255, 255, 255, 0.1);
 
   transition: border 250ms var(--trans-duration);
   cursor: pointer;
 }
 
 .comment-area:focus {
+  outline: none;
   border: 2px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
@@ -1000,8 +994,11 @@ a {
   margin: -1px;
 }
 
+/* Footer form */
+
 .form-conteiner {
   position: relative;
+  margin-left: auto;
 }
 
 .footer-form {
